@@ -83,9 +83,9 @@
     function download() {
         var isiOS = !!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
         if (isiOS) {
-            window.location.href = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/MattiaLiu/Samples/MattiaLiu-patch-1/app.plist";
+            window.location.href = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/MattiaLiu/EasySalesApp/master/qas/app.plist";
         } else {
-            window.location.href = "http://221.10.127.60:442/examples/app.apk";
+            window.location.href = "http://221.10.127.60:442/downloadqas/app.apk";
         }
     }
     //http://88.128.18.144:7777/app/eguardian/downloadSales
